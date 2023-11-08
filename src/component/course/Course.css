@@ -1,0 +1,41 @@
+.course-wrapper{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.902)
+}
+
+.outer-map-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    place-items: center;
+    gap: 40px;
+    margin: 20px ;
+    user-select: none;
+    padding: 40px 0px;
+}
+
+.courseimg-map{
+    width: min-content;
+    /* position: relative; */
+    transition: 0.2s ease-in-out;
+}
+.courseimg-map:hover{
+    scale: 1.07;
+    box-shadow: 4px 6px 6px rgba(0, 0, 0, 0.164);
+}
+
+.courseimg-map > img{
+    width: 200px;
+    height: 200px;
+}
+
+.courseimg-map > h2{
+    /* position: absolute;
+    top: 150px; */
+    text-align: center;
+    width: 100%;
+    color: whitesmoke;
+    font-size: 16px;
+    margin: 5px 0px;
+}
