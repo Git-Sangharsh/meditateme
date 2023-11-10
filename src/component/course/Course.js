@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "./Course.css";
 import Asset from "../assets/Asset";
+import { Link } from "react-router-dom";
 
 const Course = () => {
   const [courseImg, setCoursImg] = useState("");
-  const [audio, setAudio] = useState(null)
+  // const [audio, setAudio] = useState(null)
   useEffect(() => {
     setCoursImg(Asset);
   }, []);
@@ -12,14 +13,15 @@ const Course = () => {
   const handleImgClick = (music) => {
     const audio = new Audio(music);
     audio.play()
-    setAudio(audio)
+    // setAudio(audio)
   }
 
-  const handlePause = () => {
-    if(audio){
-      audio.pause()
-    }
-  }
+
+  // const handlePause = () => {
+  //   if(audio){
+  //     audio.pause()
+  //   }
+  // }
 
   // console.log("course img is ", courseImg);
 
@@ -31,9 +33,12 @@ const Course = () => {
           {courseImg &&
             courseImg.map((i) => (
               <div className="courseimg-map" key={i.id}>
-                <img src={i.img} alt="" onClick={() => handleImgClick(i.music)} />
-                <button onClick={() => handlePause()}>pause</button>
-                <h2>{i.title}</h2>
+                <Link to={`/${i.id}`}>
+                {/* <img src={i.img} alt="" onClick={() => handleImgClick(i.music)} /> */}
+                <img src={i.img} className="thubmnail" alt="" />
+                {/* <button onClick={() => handlePause()}>pause</button> */}
+                <h2 className="thubmnail-h2">{i.title}</h2>
+                </Link>
               </div>
             ))}
         </div>

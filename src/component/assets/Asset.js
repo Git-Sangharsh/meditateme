@@ -5,37 +5,43 @@ const Asset = [
         id: 1,
         img: "https://img.freepik.com/premium-photo/mountain-anime-magic-boy-wallpaper_590614-3923.jpg",
         title: 'Getting started',
-        music: music
+        music: music,
+        line: 'Find out more about Medito, mindfulness and meditation.'
     },
     {
         id: 2,
         img: "https://img.freepik.com/premium-photo/man-standing-cliff-looking-mountain-with-flowers-generative-ai_900370-34518.jpg",
         title: "Learning to sit",
-        music: music
+        music: music,
+        line: 'Find out more about Medito, mindfulness and meditation.',
     },
     {
         id: 3,
         img: "https://img.freepik.com/premium-photo/sunset-sky-mountain-range-wallpaper_948762-1461.jpg",
         title: "Mindfulness",
-        music: music
+        music: music,
+        line: 'Find out more about Medito, mindfulness and meditation.',
     },
     {
         id: 4,
         img: "https://img.freepik.com/premium-photo/river-mountains-with-pink-sky-mountain-background_902639-45407.jpg",
         title:"Gratitude",
-        music: music
+        music: music,
+        line: 'Find out more about Medito, mindfulness and meditation.',
     },
     {
         id: 5,
         img: "https://img.freepik.com/premium-photo/painting-sunset-scene-with-stream-forest-generative-ai_974539-40939.jpg",
         title: "Deepen your practice",
-        music: music
+        music: music,
+        line: 'Find out more about Medito, mindfulness and meditation.',
     },
     {
         id: 6,
         img: "https://img.freepik.com/premium-photo/digital-painting-landscape-with-mountains-planet-background_391229-5495.jpg",
         title: "Open awareness",
-        music: music
+        music: music,
+        line: 'Find out more about Medito, mindfulness and meditation.',
     }
     // {
     //     id: 7,

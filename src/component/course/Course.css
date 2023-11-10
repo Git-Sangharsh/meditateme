@@ -25,12 +25,12 @@
     box-shadow: 4px 6px 6px rgba(0, 0, 0, 0.164);
 }
 
-.courseimg-map > img{
+.thubmnail{
     width: 200px;
     height: 200px;
 }
 
-.courseimg-map > h2{
+.thubmnail-h2{
     /* position: absolute;
     top: 150px; */
     text-align: center;
@@ -38,4 +38,8 @@
     color: whitesmoke;
     font-size: 16px;
     margin: 5px 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
