@@ -6,6 +6,7 @@
     display: flex;
     background-color: rgba(0, 0, 0, 0.902);
 }
+
 .titles{
     width: 100%;
 }
@@ -27,4 +28,24 @@
     background-color: rgb(63, 63, 63);
     font-size: 40px;
     margin: 0;
+}
+
+.common{
+    margin: 0;
+}
+
+.time-1{
+    color: aliceblue;
+    padding: 0px 10px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.time-11{
+    color: gray;
+    font-family: monospace;
+    font-size: 16px;
+    padding: 0px 10px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
 }
