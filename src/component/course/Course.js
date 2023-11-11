@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Course.css";
-import Asset from "../assets/Asset";
 import { Link } from "react-router-dom";
+import Asset from "../mainAsset/Asset";
 
 const Course = () => {
   const [courseImg, setCoursImg] = useState("");
